@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Free Data Giveaway | Grade_A Cyber Tech</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="logo.png" alt="Grade_A Cyber Tech logo" class="logo" />
+      <div class="ad-top">
+        <!-- Google AdSense Placeholder (replace with your AdSense code) -->
+        <div class="ad-box">Ad space (replace with your Google AdSense code)</div>
+      </div>
+    </div>
+    <p class="lead"><strong>This is a giveaway from Grade_A Cyber Tech which offers free data to lucky participants due to the very hard economy and the high rise of data prices.</strong></p>
+  </header>
+
+  <main>
+    <section class="form-card" aria-labelledby="form-heading">
+      <h2 id="form-heading">Enter to Win Free Data</h2>
+      <form id="dataForm" action="https://script.google.com/macros/s/AKfycbzAYbs5l11yoKmvEJWSxSbeUL9kPosmzOwqVAB3fSfI3KA7TrPDstgBdVN_pDsq9TO41g/exec" novalidate>
+        <label>Full Name
+          <input type="text" name="fullname" required placeholder="Your full name" />
+        </label>
+
+        <label>Phone Number
+          <input type="tel" name="phone" required placeholder="e.g. 08012345678" pattern="^0[7-9][0-1]\d{8}$" />
+        </label>
+
+        <label>SIM Type
+          <select name="sim_type" required>
+            <option value="">-- Select SIM Type --</option>
+            <option value="MTN">MTN</option>
+            <option value="Airtel">Airtel</option>
+            <option value="Glo">Glo</option>
+            <option value="9mobile">9mobile</option>
+          </select>
+        </label>
+
+        <label>State
+          <input type="text" name="state" required placeholder="Enter your state" />
+        </label>
+
+        <label>Address
+          <input type="text" name="address" required placeholder="Enter your full address" />
+        </label>
+
+        <label>Additional Info (optional)
+          <textarea name="info" rows="3" placeholder="Preferred data size or notes..."></textarea>
+        </label>
+
+        <label>Referral (optional)
+          <input type="text" name="referral" id="referral" placeholder="Referral code or name" />
+        </label>
+
+        <input type="hidden" name="date" value="" />
+
+        <div class="submit-row">
+          <button type="submit" class="btn">Submit Request</button>
+        </div>
+
+        <div class="message" id="message" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="ad-bottom">
+      <!-- Google AdSense Placeholder (replace with your AdSense code) -->
+      <div class="ad-box">Ad space (replace with your Google AdSense code)</div>
+    </div>
+    <p>© 2025 Grade_A Cyber Tech. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
